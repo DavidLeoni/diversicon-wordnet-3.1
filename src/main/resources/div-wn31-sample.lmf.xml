@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE LexicalResource SYSTEM "ubyLmfDTD_1.0.dtd">
-<LexicalResource dtdVersion="1_0" name="WordNet">
+
+<LexicalResource 
+	name="WordNet Sample"
+	id="div-wn-sample"
+	prefix="wns"
+	
+	dtdVersion="1_0"
+	>
     <GlobalInformation label="LMF representation of WordNet 3.1"/>
     <Lexicon languageIdentifier="eng" id="WN_Lexicon_0" name="WordNet">
         <LexicalEntry id="WN_LexicalEntry_0" partOfSpeech="noun">

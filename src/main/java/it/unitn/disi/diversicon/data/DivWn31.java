@@ -3,7 +3,7 @@ package it.unitn.disi.diversicon.data;
 import javax.annotation.Nullable;
 
 import it.unitn.disi.diversicon.BuildInfo;
-import it.unitn.disi.diversicon.DiversiconResource;
+import it.unitn.disi.diversicon.LexResPackage;
 
 /**
  * Singleton holding references to Wordnet 3.1 files packaged for Diversicon
@@ -11,22 +11,29 @@ import it.unitn.disi.diversicon.DiversiconResource;
  * @since 0.1.0
  *
  */
-public class DivWn31 extends DiversiconResource {
+public class DivWn31 extends LexResPackage {
 
     /**
      * @since 0.1.0
      */
     public static final String ID = "div-wn31";
+    
+    /**
+     * 
+     * @since 0.1.0
+     */
+    public static final String NAME = "Diversicon WordNet 3.1";
+    
 
     /**
      * @since 0.1.0
      */
-    private static final String PREFIX = "wn31";    
+    public static final String PREFIX = "wn31";    
     
     /**
      * @since 0.1.0
      */
-    private static final String CLASSPATH = "classpath:/"+ID;
+    private static final String CLASSPATH = "classpath:/"+ID + ".lmf";
     
     /**
      * @since 0.1.0
@@ -42,6 +49,12 @@ public class DivWn31 extends DiversiconResource {
      * @since 0.1.0
      */
     public static final String XML_URI = CLASSPATH + ".xml.xz";    
+
+    /**
+     * @since 0.1.0
+     */
+    public static final String SAMPLE_XML_URI = CLASSPATH + "-sample" + ".xml.xz";    
+    
     
     /**
      * @since 0.1.0
@@ -56,11 +69,14 @@ public class DivWn31 extends DiversiconResource {
 
     
     static {
-        INSTANCE.setId(ID);  
+        INSTANCE.setId(ID);
+        INSTANCE.setName(NAME);
         INSTANCE.setPrefix(PREFIX);
         INSTANCE.setH2DbUri(CLASSPATH + ".h2.db.xz");
         INSTANCE.setSqlUri(CLASSPATH + ".sql.xz");
         INSTANCE.setXmlUri(CLASSPATH + ".xml.xz");
+        INSTANCE.setSampleXmlUri(CLASSPATH + "-sample.xml");
+        
         if (BuildInfo.hasProperties(DivWn31.class)){
             BuildInfo buildInfo = BuildInfo.of(DivWn31.class);
             INSTANCE.setVersion(buildInfo.getVersion());
