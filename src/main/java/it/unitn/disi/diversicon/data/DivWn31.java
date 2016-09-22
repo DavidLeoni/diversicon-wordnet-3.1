@@ -16,13 +16,13 @@ public class DivWn31 extends LexResPackage {
     /**
      * @since 0.1.0
      */
-    public static final String ID = "div-wn31";
+    public static final String NAME = "div-wn31";
     
     /**
      * 
      * @since 0.1.0
      */
-    public static final String NAME = "Diversicon WordNet 3.1";
+    public static final String LABEL = "Diversicon WordNet 3.1";
     
 
     /**
@@ -33,7 +33,7 @@ public class DivWn31 extends LexResPackage {
     /**
      * @since 0.1.0
      */
-    private static final String CLASSPATH = "classpath:/"+ID + ".lmf";
+    private static final String CLASSPATH = "classpath:/"+NAME + ".lmf";
     
     /**
      * @since 0.1.0
@@ -69,8 +69,8 @@ public class DivWn31 extends LexResPackage {
 
     
     static {
-        INSTANCE.setId(ID);
         INSTANCE.setName(NAME);
+        INSTANCE.setLabel(LABEL);
         INSTANCE.setPrefix(PREFIX);
         INSTANCE.setH2DbUri(CLASSPATH + ".h2.db.xz");
         INSTANCE.setSqlUri(CLASSPATH + ".sql.xz");
