@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LexicalResource 
+	name="div-wn-sample"
+	prefix="wn31"	
+	dtdVersion="1_0">
+    <GlobalInformation label="LMF representation of WordNet 3.1"/>
+    <Lexicon languageIdentifier="eng" id="WN_Lexicon_0" name="WordNet">
+        <LexicalEntry id="wn31_le-0" partOfSpeech="noun">
+            <Lemma>
+                <FormRepresentation languageIdentifier="eng" writtenForm="'hood"/>
+            </Lemma>
+            <Sense id="wn_s-0" index="1" synset="wn_ss-46888">
+                <SemanticLabel label="noun.location" type="semanticField"/>
+                <SemanticLabel label="slang" type="usage"/>
+                <MonolingualExternalRef externalSystem="WordNet 3.1 part of speech and sense key" externalReference="[POS: noun] 'hood%1:15:00::"/>
+            </Sense>
+        </LexicalEntry>
+        <LexicalEntry id="wn31_le-1" partOfSpeech="noun">
+            <Lemma>
+                <FormRepresentation languageIdentifier="eng" writtenForm="'s Gravenhage"/>
+            </Lemma>
+            <Sense id="wn_s-1" index="1" synset="wn_ss-48257">
+                <SemanticLabel label="noun.location" type="semanticField"/>
+                <MonolingualExternalRef externalSystem="WordNet 3.1 part of speech and sense key" externalReference="[POS: noun] 's_gravenhage%1:15:00::"/>
+            </Sense>
+        </LexicalEntry>
+       
+        <Synset id="wn31_ss-0">
+            <Definition>
+                <TextRepresentation languageIdentifier="eng" writtenText="that which is perceived or known or inferred to have its own distinct existence (living or nonliving)"/>
+            </Definition>
+            <SynsetRelation target="wn31_ss-1" relType="taxonomic" relName="hyponym"/>
+            <SynsetRelation target="wn31_ss-2" relType="taxonomic" relName="hyponym"/>
+            <SynsetRelation target="wn31_ss-24672" relType="taxonomic" relName="hyponym"/>
+            <MonolingualExternalRef externalSystem="3.1_synsetOffset" externalReference="[POS: noun] 1740"/>
+        </Synset>
+        <Synset id="wn31_ss-1">
+            <Definition>
+                <TextRepresentation languageIdentifier="eng" writtenText="an entity that has physical existence"/>
+            </Definition>
+            <SynsetRelation target="wn31_ss-0" relType="taxonomic" relName="hypernym"/>
+            <SynsetRelation target="wn31_ss-3" relType="taxonomic" relName="hyponym"/>
+            <SynsetRelation target="wn31_ss-4" relType="taxonomic" relName="hyponym"/>
+            <SynsetRelation target="wn31_ss-16" relType="taxonomic" relName="hyponym"/>
+            <SynsetRelation target="wn31_ss-24" relType="taxonomic" relName="hyponym"/>
+            <SynsetRelation target="wn31_ss-42" relType="taxonomic" relName="hyponym"/>
+            <SynsetRelation target="wn31_ss-78176" relType="taxonomic" relName="hyponym"/>
+            <MonolingualExternalRef externalSystem="3.1_synsetOffset" externalReference="[POS: noun] 1930"/>
+        </Synset>
+       
+    </Lexicon>
+</LexicalResource>

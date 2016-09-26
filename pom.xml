@@ -12,11 +12,19 @@
 
 	<groupId>it.unitn.disi</groupId>
 	<artifactId>diversicon-wordnet-3.1</artifactId>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>Diversicon Wordnet 3.1</name>
+	
+	 <modules>
+	 	<module>div-wn31-model</module>       
+        <module>div-wn31-xml</module>	 	    
+        <module>div-wn31-h2db</module>        
+        <module>div-wn31-sql</module>       
+    </modules>
+	
 	<url>https://github.com/DavidLeoni/diversicon-wordnet-3.1</url>
-	<description>Knowledge base for lexicons and concepts, based on UBY.</description>
+	<description>Wordnet 3.1 packaged as Diversicon resource</description>
 
 	<!-- better to copy scm, see https://github.com/opendatatrentino/tod-super-pom/issues/1 -->
 	<scm>
@@ -83,10 +91,12 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
 			</plugin>
+			<!-- can't use until it supports modules 
 			<plugin>
 				<groupId>eu.trentorise.opendata</groupId>
 				<artifactId>josman-maven-plugin</artifactId>
 			</plugin>
+			 -->
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
@@ -106,40 +116,5 @@
 
 	</build>
 
-	<dependencies>
-		<dependency>
-			<groupId>com.google.code.findbugs</groupId>
-			<artifactId>jsr305</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.google.code.findbugs</groupId>
-			<artifactId>annotations</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>it.unitn.disi</groupId>
-			<artifactId>diversicon-model</artifactId>		
-		</dependency>
-		<!--  **********  TEST   DEPENDENCIES   ***********   -->
-		
-				<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<scope>test</scope>
-		</dependency>
-		
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<scope>test</scope>
-		</dependency>
-		
-	</dependencies>
 
 </project>

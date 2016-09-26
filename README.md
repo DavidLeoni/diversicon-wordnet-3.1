@@ -1,5 +1,5 @@
 
-Wordnet 3.1 packaged as Maven artifact, to be used in [Diversicon](https://github.com/DavidLeoni/diversicon)
+Wordnet 3.1 packaged as Maven artifacts, to be used in [Diversicon](https://github.com/DavidLeoni/diversicon)
 
 Contains:
 
