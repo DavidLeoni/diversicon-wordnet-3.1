@@ -3,7 +3,7 @@
 
 ##### MAVEN
 
-target/*
+target/
 /target/
 /release.properties
 /pom.xml.releaseBackup
