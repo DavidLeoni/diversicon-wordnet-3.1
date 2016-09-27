@@ -30,6 +30,7 @@ public class DivWn31 extends LexResPackage {
      */
     public static final String PREFIX = "wn31";    
     
+             
     /**
      * @since 0.1.0
      */
@@ -76,10 +77,11 @@ public class DivWn31 extends LexResPackage {
         INSTANCE.setSqlUri(CLASSPATH + ".sql.xz");
         INSTANCE.setXmlUri(CLASSPATH + ".xml.xz");
         INSTANCE.setSampleXmlUri(CLASSPATH + "-sample.xml");
-        
+                
         if (BuildInfo.hasProperties(DivWn31.class)){
             BuildInfo buildInfo = BuildInfo.of(DivWn31.class);
             INSTANCE.setVersion(buildInfo.getVersion());
+            INSTANCE.putNamespace(PREFIX, buildInfo.getScmUrl() );
         } else {            
             throw new IllegalStateException("Couldn't find properties file " + BuildInfo.BUILD_PROPERTIES_PATH + " for class " + DivWn31.class.getCanonicalName());
         }               

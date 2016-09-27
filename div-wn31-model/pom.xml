@@ -48,6 +48,7 @@
 			<groupId>it.unitn.disi</groupId>
 			<artifactId>diversicon-model</artifactId>		
 		</dependency>
+		
 		<!--  **********  TEST   DEPENDENCIES   ***********   -->
 		
 		<dependency>
