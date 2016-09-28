@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <LexicalResource 
-	name="div-wn-sample"
+	name="div-wn31-sample"
 	prefix="wn31"	
 	dtdVersion="1_0">
     <GlobalInformation label="LMF representation of WordNet 3.1"/>

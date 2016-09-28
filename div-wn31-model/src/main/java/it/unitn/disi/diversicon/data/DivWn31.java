@@ -34,7 +34,7 @@ public class DivWn31 extends LexResPackage {
     /**
      * @since 0.1.0
      */
-    private static final String CLASSPATH = "classpath:/"+NAME + ".lmf";
+    private static final String CLASSPATH = "classpath:/"+NAME ;
     
     /**
      * @since 0.1.0
