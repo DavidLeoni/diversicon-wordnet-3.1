@@ -54,7 +54,7 @@ public class DivWn31 extends LexResPackage {
     /**
      * @since 0.1.0
      */
-    public static final String SAMPLE_XML_URI = CLASSPATH + "-sample" + ".xml.xz";    
+    public static final String SAMPLE_XML_URI = CLASSPATH + "-sample" + ".xml";    
     
     
     /**

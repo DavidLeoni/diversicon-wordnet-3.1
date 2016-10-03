@@ -1,53 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><LexicalResource 
+	prefix="wn31" 
+	dtdVersion="1_0" 
+	name="div-wn31" 
+	xmlns:wn31="https://github.com/DavidLeoni/diversicon-wordnet-3.1" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://diversicon-kb.org/schema/1.0/diversicon.xsd">
 
-<LexicalResource 
-	name="div-wn31-sample"
-	prefix="wn31"	
-	dtdVersion="1_0">
-    <GlobalInformation label="LMF representation of WordNet 3.1"/>
-    <Lexicon languageIdentifier="eng" id="WN_Lexicon_0" name="WordNet">
-        <LexicalEntry id="wn31_le-0" partOfSpeech="noun">
+    <GlobalInformation label="Sample of LMF representation of WordNet 3.1"/>
+    <MetaData 
+		id="wn31_m_lr" 
+		creationDate="Thu Sep 29 19:33:10 CEST 2016" 
+		creationTool="DKPro Wordnet to LMF converter v0.7.0-div as modified by David Leoni https://github.com/DavidLeoni/dkpro-uby/tree/master/de.tudarmstadt.ukp.uby.integration.wordnet-gpl" 
+		version="3.1" 
+		creationProcess="automatic" 
+		automatic="true"/>
+		
+    <Lexicon languageIdentifier="eng" id="wn31_lex_en" name="WordNet">
+
+        <LexicalEntry id="wn31_le_n_American" partOfSpeech="noun">
             <Lemma>
-                <FormRepresentation languageIdentifier="eng" writtenForm="'hood"/>
+                <FormRepresentation languageIdentifier="eng" writtenForm="American"/>
             </Lemma>
-            <Sense id="wn_s-0" index="1" synset="wn_ss-46888">
-                <SemanticLabel label="noun.location" type="semanticField"/>
-                <SemanticLabel label="slang" type="usage"/>
-                <MonolingualExternalRef externalSystem="WordNet 3.1 part of speech and sense key" externalReference="[POS: noun] 'hood%1:15:00::"/>
+            <RelatedForm targetLexicalEntry="wn31_le_a_American" relType="derivative" targetSense="wn31_s_American_3.01.01.."/>
+            <RelatedForm targetLexicalEntry="wn31_le_v_Americanize" relType="derivative" targetSense="wn31_s_Americanize_2.30.01.."/>
+            <Sense id="wn31_s_American_1.10.00.." index="2" synset="wn31_ss_n6960241">
+                <SemanticLabel label="noun.communication" type="semanticField"/>
+            </Sense>
+            <Sense id="wn31_s_American_1.18.00.." index="1" synset="wn31_ss_n9758057">
+                <SemanticLabel label="noun.person" type="semanticField"/>
+            </Sense>
+            <Sense id="wn31_s_American_1.18.01.." index="3" synset="wn31_ss_n9757749">
+                <SemanticLabel label="noun.person" type="semanticField"/>
             </Sense>
         </LexicalEntry>
-        <LexicalEntry id="wn31_le-1" partOfSpeech="noun">
+
+
+        <LexicalEntry id="wn31_le_n_3-D" partOfSpeech="noun">
             <Lemma>
-                <FormRepresentation languageIdentifier="eng" writtenForm="'s Gravenhage"/>
+                <FormRepresentation languageIdentifier="eng" writtenForm="3-D"/>
             </Lemma>
-            <Sense id="wn_s-1" index="1" synset="wn_ss-48257">
-                <SemanticLabel label="noun.location" type="semanticField"/>
-                <MonolingualExternalRef externalSystem="WordNet 3.1 part of speech and sense key" externalReference="[POS: noun] 's_gravenhage%1:15:00::"/>
+            <Sense id="wn31_s_3-D_1.09.00.." index="2" synset="wn31_ss_n5948666">
+                <SenseExample id="wn31_se_0" exampleType="other">
+                    <TextRepresentation languageIdentifier="eng" writtenText="aren't dreams always in 3-D?"/>
+                </SenseExample>
+                <SemanticLabel label="noun.cognition" type="semanticField"/>
+            </Sense>
+            <Sense id="wn31_s_3-D_1.10.00.." index="1" synset="wn31_ss_n6631444">
+                <SemanticLabel label="noun.communication" type="semanticField"/>
             </Sense>
         </LexicalEntry>
-       
-        <Synset id="wn31_ss-0">
+        
+        
+
+        <Synset id="wn31_ss_n6150">
             <Definition>
-                <TextRepresentation languageIdentifier="eng" writtenText="that which is perceived or known or inferred to have its own distinct existence (living or nonliving)"/>
+                <TextRepresentation languageIdentifier="eng" writtenText="an organism (plant or animal) from which younger ones are obtained"/>
             </Definition>
-            <SynsetRelation target="wn31_ss-1" relType="taxonomic" relName="hyponym"/>
-            <SynsetRelation target="wn31_ss-2" relType="taxonomic" relName="hyponym"/>
-            <SynsetRelation target="wn31_ss-24672" relType="taxonomic" relName="hyponym"/>
-            <MonolingualExternalRef externalSystem="3.1_synsetOffset" externalReference="[POS: noun] 1740"/>
+            <SynsetRelation target="wn31_ss_n4475" relType="taxonomic" relName="hypernym"/>
         </Synset>
-        <Synset id="wn31_ss-1">
+        <Synset id="wn31_ss_n6269">
             <Definition>
-                <TextRepresentation languageIdentifier="eng" writtenText="an entity that has physical existence"/>
+                <TextRepresentation languageIdentifier="eng" writtenText="living things collectively"/>
             </Definition>
-            <SynsetRelation target="wn31_ss-0" relType="taxonomic" relName="hypernym"/>
-            <SynsetRelation target="wn31_ss-3" relType="taxonomic" relName="hyponym"/>
-            <SynsetRelation target="wn31_ss-4" relType="taxonomic" relName="hyponym"/>
-            <SynsetRelation target="wn31_ss-16" relType="taxonomic" relName="hyponym"/>
-            <SynsetRelation target="wn31_ss-24" relType="taxonomic" relName="hyponym"/>
-            <SynsetRelation target="wn31_ss-42" relType="taxonomic" relName="hyponym"/>
-            <SynsetRelation target="wn31_ss-78176" relType="taxonomic" relName="hyponym"/>
-            <MonolingualExternalRef externalSystem="3.1_synsetOffset" externalReference="[POS: noun] 1930"/>
+            <SynsetRelation target="wn31_ss_n4258" relType="taxonomic" relName="hypernym"/>
+            <SynsetRelation target="wn31_ss_n8010218" relType="taxonomic" relName="hyponym"/>
         </Synset>
-       
+
+
+		<!-- dummy synsets so validator doesn't complain --> 
+        <Synset id="wn31_ss_n4258"></Synset>
+        <Synset id="wn31_ss_n8010218"></Synset>
+        <Synset id="wn31_ss_n4475"></Synset>        
+        <Synset id="wn31_ss_n6631444"></Synset>        
+        <Synset id="wn31_ss_n6960241"></Synset>               
+        <Synset id="wn31_ss_n5948666"></Synset>        
+        <Synset id="wn31_ss_n9757749"></Synset>        
+        <Synset id="wn31_ss_n9758057"></Synset>
+
+
+        <SubcategorizationFrame id="wn31_scf_0">
+            <SyntacticArgument id="wn31_sya_0" grammaticalFunction="subject" syntacticCategory="expletive"/>
+            <SyntacticArgument id="wn31_sya_1" grammaticalFunction="complement" syntacticCategory="subordinateClause" complementizer="thatType"/>
+        </SubcategorizationFrame>
+        <SubcategorizationFrame id="wn31_scf_1">
+            <SyntacticArgument id="wn31_sya_2" grammaticalFunction="subject" syntacticCategory="expletive"/>
+        </SubcategorizationFrame>
+        <SemanticPredicate id="wn31_sp_0">
+            <SemanticArgument id="wn31_sea_0" semanticRole="somebody">
+                <SemanticLabel label="somebody" type="selectionalPreference"/>
+            </SemanticArgument>
+        </SemanticPredicate>
+        <SemanticPredicate id="wn31_sp_1">
+            <SemanticArgument id="wn31_sea_1" semanticRole="somebody">
+                <SemanticLabel label="somebody" type="selectionalPreference"/>
+            </SemanticArgument>
+        </SemanticPredicate>
+
+        <SynSemCorrespondence id="wn31_ssc_24">
+            <SynSemArgMap syntacticArgument="wn31_sya_62" semanticArgument="wn31_sea_47"/>
+        </SynSemCorrespondence>
+        <SynSemCorrespondence id="wn31_ssc_0">
+            <SynSemArgMap syntacticArgument="wn31_sya_3" semanticArgument="wn31_sea_0"/>
+        </SynSemCorrespondence>
     </Lexicon>
 </LexicalResource>
