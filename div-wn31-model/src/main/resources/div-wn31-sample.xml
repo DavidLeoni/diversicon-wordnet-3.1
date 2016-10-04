@@ -4,7 +4,7 @@
 	name="div-wn31" 
 	xmlns:wn31="https://github.com/DavidLeoni/diversicon-wordnet-3.1" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xsi:schemaLocation="http://diversicon-kb.org/schema/1.0/diversicon.xsd">
+	xsi:schemaLocation="http://diversicon-kb.eu/schema/1.0/diversicon.xsd">
 
     <GlobalInformation label="Sample of LMF representation of WordNet 3.1"/>
     <MetaData 
