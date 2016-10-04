@@ -27,4 +27,9 @@ public class DivWn31Test {
         LOG.debug("buildInfo.version = " + BuildInfo.of(DivWn31.class).getVersion());
         assertTrue(BuildInfo.of(DivWn31.class).getScmUrl().endsWith("diversicon-wordnet-3.1"));
     }
+    
+    @Test
+    public void testToSTring(){
+        LOG.debug("div-wn31 = " + DivWn31.of().toString());
+    }
 }

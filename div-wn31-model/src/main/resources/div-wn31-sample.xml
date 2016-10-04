@@ -34,7 +34,7 @@
             </Sense>
         </LexicalEntry>
 
-
+		<!-- Note we can have numbers and acronyms in ids -->
         <LexicalEntry id="wn31_le_n_3-D" partOfSpeech="noun">
             <Lemma>
                 <FormRepresentation languageIdentifier="eng" writtenForm="3-D"/>
@@ -50,6 +50,28 @@
             </Sense>
         </LexicalEntry>
         
+        <!-- Note this is linked to Sense wn31_s_downstream_4.02.00.. via SenseRelation  -->
+		<LexicalEntry id="wn31_le_r_upstream" partOfSpeech="adverb">
+            <Lemma>
+                <FormRepresentation languageIdentifier="eng" writtenForm="upstream"/>
+            </Lemma>
+            <Sense id="wn31_s_upstream_4.02.00.." index="1" synset="wn31_ss_r97658">
+                <SenseRelation target="wn31_s_downstream_4.02.00.." relType="complementary" relName="antonym"/>
+                <SemanticLabel label="adv.all" type="semanticField"/>
+            </Sense>
+        </LexicalEntry>
+
+        <!-- Note this is linked to Sense wn31_s_upstream_4.02.00.. via SenseRelation  -->
+
+		<LexicalEntry id="wn31_le_r_downstream" partOfSpeech="adverb">
+            <Lemma>
+                <FormRepresentation languageIdentifier="eng" writtenForm="downstream"/>
+            </Lemma>
+            <Sense id="wn31_s_downstream_4.02.00.." index="1" synset="wn31_ss_r97781">
+                <SenseRelation target="wn31_s_upstream_4.02.00.." relType="complementary" relName="antonym"/>
+                <SemanticLabel label="adv.all" type="semanticField"/>
+            </Sense>
+        </LexicalEntry>
         
 
         <Synset id="wn31_ss_n6150">
@@ -76,6 +98,10 @@
         <Synset id="wn31_ss_n5948666"></Synset>        
         <Synset id="wn31_ss_n9757749"></Synset>        
         <Synset id="wn31_ss_n9758057"></Synset>
+        <Synset id="wn31_ss_r97658"></Synset>
+        <Synset id="wn31_ss_r97781"></Synset>
+        
+        
 
 
         <SubcategorizationFrame id="wn31_scf_0">
