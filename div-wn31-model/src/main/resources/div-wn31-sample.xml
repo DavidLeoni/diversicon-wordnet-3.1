@@ -73,6 +73,21 @@
             </Sense>
         </LexicalEntry>
         
+        <!--  this LexicalEntry Sense has a PredicativeRepresentation and SyntacticBehaviour -->
+		<LexicalEntry id="wn31_le_v_zoom-in" partOfSpeech="verb">
+            <Lemma>
+                <FormRepresentation languageIdentifier="eng" writtenForm="zoom in"/>
+            </Lemma>
+            <Sense id="wn31_s_zoom-in_2.39.00.." index="1" synset="wn31_ss_v2157683">
+                <SenseExample id="wn31_se_24095" exampleType="other">
+                    <TextRepresentation languageIdentifier="eng" writtenText="He zoomed in on the book"/>
+                </SenseExample>
+                <PredicativeRepresentation predicate="wn31_sp_3"/>
+                <SemanticLabel label="verb.perception" type="semanticField"/>
+            </Sense>
+            <SyntacticBehaviour id="wn31_sb_34408" sense="wn31_s_zoom-in_2.39.00.." subcategorizationFrame="wn31_scf_5"/>
+        </LexicalEntry>
+        
 
         <Synset id="wn31_ss_n6150">
             <Definition>
@@ -100,6 +115,8 @@
         <Synset id="wn31_ss_n9758057"></Synset>
         <Synset id="wn31_ss_r97658"></Synset>
         <Synset id="wn31_ss_r97781"></Synset>
+        <Synset id="wn31_ss_v2157683"></Synset>
+        
         
         
 
@@ -111,16 +128,17 @@
         <SubcategorizationFrame id="wn31_scf_1">
             <SyntacticArgument id="wn31_sya_2" grammaticalFunction="subject" syntacticCategory="expletive"/>
         </SubcategorizationFrame>
-        <SemanticPredicate id="wn31_sp_0">
-            <SemanticArgument id="wn31_sea_0" semanticRole="somebody">
-                <SemanticLabel label="somebody" type="selectionalPreference"/>
-            </SemanticArgument>
-        </SemanticPredicate>
         <SemanticPredicate id="wn31_sp_1">
             <SemanticArgument id="wn31_sea_1" semanticRole="somebody">
                 <SemanticLabel label="somebody" type="selectionalPreference"/>
             </SemanticArgument>
         </SemanticPredicate>
+        <SemanticPredicate id="wn31_sp_3">
+            <SemanticArgument id="wn31_sea_3" semanticRole="somebody">
+                <SemanticLabel label="somebody" type="selectionalPreference"/>
+            </SemanticArgument>
+        </SemanticPredicate>
+        
 
         <SynSemCorrespondence id="wn31_ssc_24">
             <SynSemArgMap syntacticArgument="wn31_sya_62" semanticArgument="wn31_sea_47"/>
