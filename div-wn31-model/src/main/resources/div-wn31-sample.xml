@@ -2,7 +2,9 @@
 	prefix="wn31" 
 	dtdVersion="1_0" 
 	name="div-wn31" 
-	xmlns:wn31="https://github.com/DavidLeoni/diversicon-wordnet-3.1" 
+	xmlns:wn31="https://github.com/DavidLeoni/diversicon-wordnet-3.1"
+	
+	xmlns="http://diversicon-kb.eu/schema/1"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://diversicon-kb.eu/schema/1
 						http://diversicon-kb.eu/schema/1.0/diversicon.xsd">
