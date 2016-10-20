@@ -1,4 +1,4 @@
-package it.unitn.disi.diversicon.data.test;
+package eu.kidf.diversicon.data.test;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -7,8 +7,8 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import it.unitn.disi.diversicon.BuildInfo;
-import it.unitn.disi.diversicon.data.DivWn31;
+import eu.kidf.diversicon.core.BuildInfo;
+import eu.kidf.diversicon.data.DivWn31;
 
 public class DivWn31Test {
     

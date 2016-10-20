@@ -1,9 +1,9 @@
-package it.unitn.disi.diversicon.data;
+package eu.kidf.diversicon.data;
 
 import javax.annotation.Nullable;
 
-import it.unitn.disi.diversicon.BuildInfo;
-import it.unitn.disi.diversicon.LexResPackage;
+import eu.kidf.diversicon.core.BuildInfo;
+import eu.kidf.diversicon.core.LexResPackage;
 
 /**
  * Singleton holding references to Wordnet 3.1 files packaged for Diversicon
