@@ -89,6 +89,31 @@
             <SyntacticBehaviour id="wn31_sb_34408" sense="wn31_s_zoom-in_2.39.00.." subcategorizationFrame="wn31_scf_5"/>
         </LexicalEntry>
         
+        
+        
+        <!--  we can have multiple WordForms for exceptions in the derivation -->
+	    <LexicalEntry id="wn31_le_v_war" partOfSpeech="verb">
+            <Lemma>
+                <FormRepresentation languageIdentifier="eng" writtenForm="war"/>
+            </Lemma>
+            <WordForm>
+                <FormRepresentation languageIdentifier="eng" writtenForm="warred"/>
+            </WordForm>
+            <WordForm>
+                <FormRepresentation languageIdentifier="eng" writtenForm="warring"/>
+            </WordForm>
+            <RelatedForm targetLexicalEntry="wn31_le_n_war" relType="derivative" targetSense="wn31_s_war_1.26.00.."/>
+            <RelatedForm targetLexicalEntry="wn31_le_n_warrior" relType="derivative" targetSense="wn31_s_warrior_1.18.00.."/>
+            <Sense id="wn31_s_war_2.33.00.." index="1" synset="wn31_ss_v1095583">
+                <PredicativeRepresentation predicate="wn31_sp_0"/>
+                <PredicativeRepresentation predicate="wn31_sp_3"/>
+                <SenseRelation target="wn31_s_make-peace_2.33.00.." relType="complementary" relName="antonym"/>
+                <SemanticLabel label="verb.competition" type="semanticField"/>
+            </Sense>
+            <SyntacticBehaviour id="wn31_sb_33529" sense="wn31_s_war_2.33.00.." subcategorizationFrame="wn31_scf_2"/>
+            <SyntacticBehaviour id="wn31_sb_33530" sense="wn31_s_war_2.33.00.." subcategorizationFrame="wn31_scf_5"/>
+        </LexicalEntry>
+        
 
         <Synset id="wn31_ss_n6150">
             <Definition>
@@ -105,6 +130,7 @@
         </Synset>
 
 
+
 		<!-- dummy synsets so validator doesn't complain --> 
         <Synset id="wn31_ss_n4258"></Synset>
         <Synset id="wn31_ss_n8010218"></Synset>
@@ -117,7 +143,7 @@
         <Synset id="wn31_ss_r97658"></Synset>
         <Synset id="wn31_ss_r97781"></Synset>
         <Synset id="wn31_ss_v2157683"></Synset>
-        
+		<Synset id="wn31_ss_v1095583"></Synset>        
         
         
 
