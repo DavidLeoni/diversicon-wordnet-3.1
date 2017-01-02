@@ -16,7 +16,7 @@
 		creationProcess="automatic" 
 		automatic="true"/>
 		
-    <Lexicon languageIdentifier="eng" id="wn31_lex_en" name="WordNet">
+    <Lexicon languageIdentifier="eng" id="wn31_lex_eng" name="WordNet">
 
         <LexicalEntry id="wn31_le_n_American" partOfSpeech="noun">
             <Lemma>
