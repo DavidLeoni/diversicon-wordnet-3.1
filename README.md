@@ -11,7 +11,7 @@ RELEASE DOCS ARE ON THE <a href="http://diversicon-kb.eu/manual/diversicon-wordn
 
 #### About 
 
-Princeton Wordnet 3.1 packaged as Maven artifacts, to be used with <a href="https://diversicon-kb.eu/tools" target="_blank">Diversicon tools</a>.
+Princeton Wordnet 3.1 packaged as Maven artifacts, to be used with [Diversicon tools](http://diversicon-kb.eu/tools#java-libraries).
 
 Available packages:
 
