@@ -16,12 +16,12 @@
 
 	<name>Diversicon Wordnet 3.1</name>
 	
-	 <modules>
-	 	<module>div-wn31-model</module>       
-        <module>div-wn31-xml</module>	 	    
-        <module>div-wn31-h2db</module>        
-        <module>div-wn31-sql</module>       
-    </modules>
+            <modules>
+	    <module>div-wn31-model</module>       
+            <module>div-wn31-xml</module>	 	    
+            <module>div-wn31-h2db</module>        
+            <module>div-wn31-sql</module>       
+        </modules>
 	
 	<url>https://github.com/DavidLeoni/diversicon-wordnet-3.1</url>
 	<description>Wordnet 3.1 packaged as Diversicon resource</description>
