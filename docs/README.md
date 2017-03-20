@@ -14,7 +14,7 @@ If you use Maven as build system, put the following snippets in `dependencies` s
 	<dependency>
 		<groupId>eu.kidf</groupId>
 		<artifactId>div-wn31-model</artifactId>
-		<version>${project.version}</version>		
+		<version>0.1.0</version>		
 	</dependency>
 
 ```
@@ -26,7 +26,7 @@ If you use Maven as build system, put the following snippets in `dependencies` s
 	<dependency>
 		<groupId>eu.kidf</groupId>
 		<artifactId>div-wn31-h2db</artifactId>
-		<version>${project.version}</version>		
+		<version>0.1.0</version>		
 	</dependency>
 
 ```
@@ -42,7 +42,7 @@ Password: `pass`
 	<dependency>
 		<groupId>eu.kidf</groupId>
 		<artifactId>div-wn31-sql</artifactId>
-		<version>${project.version}</version>		
+		<version>0.1.0</version>		
 	</dependency>
 
 ```
@@ -54,7 +54,7 @@ Password: `pass`
 	<dependency>
 		<groupId>eu.kidf</groupId>
 		<artifactId>div-wn31-xml</artifactId>
-		<version>${project.version}</version>		
+		<version>0.1.0</version>		
 	</dependency>
 
 ```

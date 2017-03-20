@@ -52,6 +52,6 @@ Packaging:
 
 Packaging made possible thanks to:
 
-&emsp;&emsp;&emsp;<a href="https://www.hw.ac.uk/schools/mathematical-computer-sciences/departments/computer-science.htm" target="_blank"> <img src="docs/img/hw.webp" width="80px" style="vertical-align:middle;"> </a> &emsp;&emsp;&emsp;<a href="https://www.hw.ac.uk/schools/mathematical-computer-sciences/departments/computer-science.htm" target="_blank"> Heriot-Watt Computer Science Department </a>  
+&emsp;&emsp;&emsp;<a href="https://www.hw.ac.uk/schools/mathematical-computer-sciences/departments/computer-science.htm" target="_blank"> <img src="docs/img/hw.png" width="80px" style="vertical-align:middle;"> </a> &emsp;&emsp;&emsp;<a href="https://www.hw.ac.uk/schools/mathematical-computer-sciences/departments/computer-science.htm" target="_blank"> Heriot-Watt Computer Science Department </a>  
 
 &emsp;<a href="http://kidf.eu" target="_blank"> <img style="vertical-align:middle;" width="140px" src="docs/img/kidf-scientia.png"> </a> &emsp; <a href="http://kidf.eu" target="_blank"> Knowledge in Diversity Foundation </a> <br/>
